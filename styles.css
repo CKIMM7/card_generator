@@ -76,3 +76,13 @@ p {
     width:100%;
     height:auto;
 }
+
+.cardHolder .card #reciever {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cardHolder .card #messag {
+    color: black
+}

@@ -36,6 +36,8 @@ form.addEventListener("submit", async e => {
 
     cardHolder
     card.classList.add('card');
+    p1.setAttribute("id", "reciever");
+    p3.setAttribute("id", "messag");
 
     cardHolder.append(card);
     card.append(p1);
