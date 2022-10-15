@@ -1,0 +1,78 @@
+* {
+    box-sizing: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(172, 158, 158, .5);
+    opacity: 0.7;
+    width: 50vw;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#greeting {
+    font-size: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#event {
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#message {
+    font-size: 16px;
+    width: 25rem;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#submit {
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+form label {
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    width: 50%;
+}
+
+.cardHolder {
+    margin-top: 20px;
+}
+
+.cardHolder .card {
+    margin-top: 20px;
+    background-color: brown;
+    padding: 30px;
+    width: 50vw;
+    border-radius: 15px;
+    background: rgb(172, 158, 158, .5);
+}
+
+.cardHolder .card img {
+    border-radius: 15px;
+    width:100%;
+    height:auto;
+}
